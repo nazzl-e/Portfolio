@@ -827,7 +827,7 @@
   <div class="modal-inner">
     <button class="modal-close" onclick="closeVideoModal()">✕</button>
     <div class="modal-video-wrap">
-      <video id="modal-video" controls playsinline preload="metadata">
+      <video id="modal-video" controls controlslist="nodownload noremoteplayback" disablepictureinpicture playsinline preload="metadata">
         <source id="modal-video-source" src="" type="video/mp4">
       </video>
       <iframe
